@@ -1,0 +1,2 @@
+aknay_picam_msg:beginner_tutorials
+-DCATKIN_DEVEL_PREFIX=/home/pi/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pi/catkin_ws/install -G Unix Makefiles

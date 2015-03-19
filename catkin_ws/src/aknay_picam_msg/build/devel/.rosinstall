@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/pi/catkin_ws/src/aknay_picam_msg/build/devel/setup.sh

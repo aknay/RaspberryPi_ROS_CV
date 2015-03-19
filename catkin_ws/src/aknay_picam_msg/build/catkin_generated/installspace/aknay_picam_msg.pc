@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: aknay_picam_msg
+Description: Description of aknay_picam_msg
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

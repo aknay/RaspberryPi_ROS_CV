@@ -5,5 +5,4 @@
 # This file includes the relevent testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 SUBDIRS(gtest)
-SUBDIRS(aknay_picam_msg)
-SUBDIRS(beginner_tutorials)
+SUBDIRS(pi_gbot)

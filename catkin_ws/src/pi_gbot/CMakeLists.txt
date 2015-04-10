@@ -1,0 +1,36 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(pi_gbot)
+
+SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} /usr/local/lib/cmake/)
+
+find_package(catkin REQUIRED COMPONENTS
+  cv_bridge
+  image_transport
+  std_msgs
+  #raspicam
+)
+
+#for pi cam
+#SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} /usr/local/lib/cmake/)
+find_package(raspicam REQUIRED)
+#find_package(OpenCV)
+#end of pi cam
+
+catkin_package(
+)
+
+include_directories(
+  ${catkin_INCLUDE_DIRS}
+)
+
+################################
+add_executable(middleware_between_arduino_and_ubuntu middleware_between_arduino_and_ubuntu.cpp)
+target_link_libraries(middleware_between_arduino_and_ubuntu ${catkin_LIBRARIES})
+add_dependencies(middleware_between_arduino_and_ubuntu pi_gbot_msg_generate_messages_cpp)
+################################
+
+################################
+add_executable(sending_image_to_ubuntu sending_image_to_ubuntu.cpp)
+target_link_libraries(sending_image_to_ubuntu ${catkin_LIBRARIES})
+target_link_libraries (sending_image_to_ubuntu ${raspicam_CV_LIBS})
+################################

@@ -1,8 +1,0 @@
-prefix=/home/pi/catkin_ws/src/aknay_picam_msg/build/devel
-
-Name: aknay_picam_msg
-Description: Description of aknay_picam_msg
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/pi/catkin_ws/src/aknay_picam_msg/build/devel/lib 
-Requires: 

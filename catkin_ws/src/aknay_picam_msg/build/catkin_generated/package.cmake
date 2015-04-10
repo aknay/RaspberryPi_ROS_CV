@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "aknay_picam_msg")
-set(aknay_picam_msg_MAINTAINER "pi <pi@todo.todo>")
-set(aknay_picam_msg_DEPRECATED "")
-set(aknay_picam_msg_VERSION "0.0.0")
-set(aknay_picam_msg_BUILD_DEPENDS "roscpp" "std_msgs")
-set(aknay_picam_msg_RUN_DEPENDS "roscpp" "std_msgs")
-set(aknay_picam_msg_BUILDTOOL_DEPENDS "catkin")

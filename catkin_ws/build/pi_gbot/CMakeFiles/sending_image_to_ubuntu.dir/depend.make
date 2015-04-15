@@ -72,4 +72,5 @@ pi_gbot/CMakeFiles/sending_image_to_ubuntu.dir/sending_image_to_ubuntu.cpp.o: /o
 pi_gbot/CMakeFiles/sending_image_to_ubuntu.dir/sending_image_to_ubuntu.cpp.o: /opt/ros/indigo/include/sensor_msgs/Image.h
 pi_gbot/CMakeFiles/sending_image_to_ubuntu.dir/sending_image_to_ubuntu.cpp.o: /opt/ros/indigo/include/sensor_msgs/RegionOfInterest.h
 pi_gbot/CMakeFiles/sending_image_to_ubuntu.dir/sending_image_to_ubuntu.cpp.o: /opt/ros/indigo/include/std_msgs/Header.h
+pi_gbot/CMakeFiles/sending_image_to_ubuntu.dir/sending_image_to_ubuntu.cpp.o: /usr/local/include/raspicam/raspicam_cv.h
 

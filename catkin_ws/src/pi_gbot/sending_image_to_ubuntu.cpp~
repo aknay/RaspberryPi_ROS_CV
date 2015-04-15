@@ -83,7 +83,7 @@ Mat getCenter(const Mat inputImage){
  Mat imageRoi = inputImage(region_of_interest);
  cvtColor( imageRoi, grayScaleImage, CV_RGB2GRAY );
 
- threshold(grayScaleImage, thresholdImage, 70, 255,THRESH_BINARY_INV); //THRESH_BINARY_INV has better detection than THRESH_BINARY
+ threshold(grayScaleImage, thresholdImage, 70, 255,THRESH_BINARY_INV); //THRESH_BINARY_INV is better to detect than THRESH_BINARY
  Mat erodeElmt = getStructuringElement(MORPH_RECT, Size(3, 3));
  Mat dilateElmt = getStructuringElement(MORPH_RECT, Size(5, 5));
  erode(thresholdImage, erodedImage, erodeElmt);

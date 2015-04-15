@@ -13,7 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
 #for pi cam
 #SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} /usr/local/lib/cmake/)
 find_package(raspicam REQUIRED)
-#find_package(OpenCV)
+find_package(OpenCV)
 #end of pi cam
 
 catkin_package(
